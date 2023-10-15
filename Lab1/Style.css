@@ -1,7 +1,7 @@
 .screen{
-    max-height: 350px;
-    background-color: rgb(52, 206, 52);
-    min-height: 147px;
+    max-height: 224px;
+    background-color: rgb(76, 218, 76);
+    display: flex;
 }
 
 .tercio{
@@ -10,11 +10,28 @@
 
 .fotomarco{
     background-color: rgb(183, 221, 255);
-    max-height: 350px;
     text-align: center;
+    max-width:max-content;
 }
 
 .fotoperfil{
-    max-width: 100%;
-    max-height: 350px;
+    height: 224px;
+}
+
+.userdata{
+    font-family: sans-serif;
+    font-size: 130%;
+}
+
+.UserElement{
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+
+.userItem{
+    color: rgb(0, 0, 90);
+}
+
+.userCont{
+    color:rgb(0, 59, 3);
 }
