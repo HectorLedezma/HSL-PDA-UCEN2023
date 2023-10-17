@@ -33,9 +33,7 @@ function UserData(){
     document.getElementsByName("Nombre")[0].textContent = User.UserName;
     document.getElementsByName("Age")[0].textContent = User.Edad;
     document.getElementsByName("Mail")[0].textContent = User.eMail;
-    document.getElementsByName("github")[0].textContent = User.gitName;
-    let gith = document.getElementsByName("github")[0].childNodes[1].href = User.gitLink;
-    console.log(gith[0].childNodes[1].href);
-
+    document.getElementsByName("github")[0].childNodes[1].href = User.gitLink;
+    document.getElementsByName("gitLink")[0].textContent = User.gitName;
 }
 window.onload = UserData;
