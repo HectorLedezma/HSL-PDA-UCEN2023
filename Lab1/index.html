@@ -10,30 +10,52 @@
     </head>
     <body>
         <div name="perfil" class="screen">
-            <div name="fotoperfil" class="fotomarco">
-                <img class="fotoperfil" src="https://static.wikia.nocookie.net/comida-y-bebidas/images/0/05/Pera.png/revision/latest?cb=20230221195400&path-prefix=es" alt="" />
+            <div class="fotomarco">
+                <img class="fotoperfil" name="fotoperfil" src="" alt="FotoPerfil" />
             </div>
-            <div name="userdata" class="userdata">
+            <div Name="userdata" class="userdata">
                 <ul>
                     <li class="UserElement">
                         <label class="userItem">Nombre:</label>
-                        <label class="userCont">Dato 1</label>
+                        <label name="Nombre" class="userCont"></label>
+                    </li>
+                    <li class="UserElement">
+                        <label class="userItem">Edad:</label>
+                        <label name="Age" class="userCont"></label>
                     </li>
                     <li class="UserElement">
                         <label class="userItem">Correo:</label>
-                        <label class="userCont">Dato 2</label>
+                        <label name="Mail" class="userCont"></label>
                     </li>
                     <li class="UserElement">
                         <label class="userItem">GitHub:</label>
-                        <label class="userCont">Dato 3</label>
+                        <label name="github" class="userCont">
+                            <a href="http://github.com/HectorLedezma?tab=repositories">HectorLedezma</a>
+                        </label>
                     </li>
                 </ul>
             </div>
         </div>
-        <div name="Plist">
-            <div name="P1"></div>
-            <div name="P2"></div>
-            <div name="P3"></div>
+        <div name="Plist" class="Plist">
+            <div name="P1" class="marginB10px">
+                <label class="ProyectTitle">Proyecto 1</label><br/>
+                <label class="ProyectTitle">Nombre:</label>
+                <label>Albion Online</label>
+                <a href="proyecto.html"><label class="ProyectLink">Click Here</label></a>
+            </div>
+            <div name="P2" class="marginB10px">
+                <label class="ProyectTitle">Proyecto 2</label><br/>
+                <label class="ProyectTitle">Nombre:</label>
+                <label></label>
+                <a href="proyecto.html"><label class="ProyectLink">Click Here</label></a>
+            </div>
+            <div name="P3" class="marginB10px">
+                <label class="ProyectTitle">Proyecto 3</label><br/>
+                <label class="ProyectTitle">Nombre:</label>
+                <label></label>
+                <a href="proyecto.html"><label class="ProyectLink">Click Here</label></a>
+            </div>
         </div>
     </body>
+    <script src="script.js"></script>
 </html>

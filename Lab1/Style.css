@@ -16,22 +16,66 @@
 
 .fotoperfil{
     height: 224px;
+    border-radius: 50px;
 }
 
 .userdata{
     font-family: sans-serif;
-    font-size: 130%;
+    font-size: 110%;
 }
 
 .UserElement{
-    margin-top: 10%;
-    margin-bottom: 30%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
 }
 
 .userItem{
     color: rgb(0, 0, 90);
+    font-weight: bold;
 }
 
 .userCont{
     color:rgb(0, 59, 3);
+}
+
+.Plist{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+.ProyectTitle{
+    font-weight: bold;
+}
+
+.mrg-top20px{
+    margin-top: 20px;
+}
+
+.marginB10px{
+    margin-bottom: 10px;
+}
+
+.banner{
+    background-image: "./Ao.jpg";
+
+}
+
+.TProyect{
+    text-align: center;
+    color: rgb(0, 0, 90);
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: peru;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.descripcion{
+    background-color: rgb(161, 150, 150,0.5);
+    border-radius: 20px;
+}
+
+.Texto{
+    margin: 50px;
 }
