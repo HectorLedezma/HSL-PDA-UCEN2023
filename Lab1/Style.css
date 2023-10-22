@@ -1,6 +1,7 @@
 .screen{
     max-height: 224px;
-    background-color: rgb(76, 218, 76);
+    background-image: url("./Imagenes/banner.png");
+    background-size: cover;
     display: flex;
 }
 
@@ -9,7 +10,6 @@
 }
 
 .fotomarco{
-    background-color: rgb(183, 221, 255);
     text-align: center;
     max-width:max-content;
 }
@@ -26,26 +26,40 @@
 
 .UserElement{
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     
 }
 
 .userItem{
-    color: rgb(0, 0, 90);
+    color: rgb(145, 0, 0);
     font-weight: bold;
 }
 
 .userCont{
-    color:rgb(0, 59, 3);
+    color:rgb(1, 0, 75);
 }
 
 .Plist{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.Pcontent{
     margin: 20px;
+    padding: 10px;
 }
 
 .ProyectTitle{
     font-weight: bold;
+    color: rgb(179, 0, 0);
+}
+
+.ProyectItem{
+    font-size: 90%;
+    color: black;
 }
 
 .mrg-top20px{
@@ -53,7 +67,15 @@
 }
 
 .marginB10px{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.mrg-0pc{
+    margin-bottom: 0%;
+}
+
+.mrg-10px{
+    margin: 10px;
 }
 
 .banner{
@@ -79,3 +101,92 @@
 .Texto{
     margin: 50px;
 }
+
+.gitLink{
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    color: azure;
+    width: 80%;
+    border-width: 1px;
+    border-color: black;
+    pointer-events: visible;
+}
+
+.btn-colorT{
+    background-color: rgba(12, 0, 82, 0.5);
+}
+
+.btn-color{
+    background-color: rgba(12, 0, 82);
+}
+
+
+.todo{
+    width: 100%
+}
+
+
+.mitad{
+    width: 50%;
+}
+
+
+.bgc-blanco{
+    background-color: white;
+}
+
+.ta-center{
+    text-align: center;
+}
+
+.dp-flex{
+    display: flex;
+}
+
+.brd-10px{
+    border-radius: 10px;
+}
+
+.pimage{
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.ProyectBox{
+    border-width: 3px;
+    border-color: rgb(0, 0, 153);
+    border-style: dashed;
+}
+
+.marcado{
+    background-color: rgba(0, 0, 223, 0.5);
+}
+
+.mitadV{
+    height:50%;
+}
+
+.dp-contents{
+    display: contents;
+}
+
+.siete-octavosV{
+    height: 87.5%;
+}
+
+.octavoV{
+    height: 12.5%;
+}
+
+.dos-tercios{
+    width: 66%;
+}
+
+.tercio{
+    width: 33%;
+}
+

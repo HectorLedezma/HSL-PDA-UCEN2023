@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
+    <head class="IndexPage">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
@@ -8,7 +8,7 @@
         </title>
         <link rel="stylesheet" href="Style.css"/>
     </head>
-    <body>
+    <header>
         <div name="perfil" class="screen">
             <div class="fotomarco">
                 <img class="fotoperfil" name="fotoperfil" src="" alt="FotoPerfil" />
@@ -29,31 +29,79 @@
                     </li>
                     <li class="UserElement">
                         <label class="userItem">GitHub:</label>
-                        <label name="github" class="userCont">
-                            <a name="gitLink" href=""></a>
-                        </label>
+                        <label name="github" class="userCont"></label>
+                        <button name="gitLink" class="gitLink btn-colorT">Visitar</button>
                     </li>
                 </ul>
             </div>
         </div>
+    </header>
+    <body>
         <div name="Plist" class="Plist">
-            <div name="P1" class="marginB10px">
-                <label class="ProyectTitle">Proyecto 1</label><br/>
-                <label class="ProyectTitle">Nombre:</label>
-                <label>Albion Online</label>
-                <a href="proyecto.html"><label class="ProyectLink">Click Here</label></a>
-            </div>
-            <div name="P2" class="marginB10px">
-                <label class="ProyectTitle">Proyecto 2</label><br/>
-                <label class="ProyectTitle">Nombre:</label>
-                <label></label>
-                <a href="proyecto.html"><label class="ProyectLink">Click Here</label></a>
-            </div>
-            <div name="P3" class="marginB10px">
-                <label class="ProyectTitle">Proyecto 3</label><br/>
-                <label class="ProyectTitle">Nombre:</label>
-                <label></label>
-                <a href="proyecto.html"><label class="ProyectLink">Click Here</label></a>
+            <div class="Pcontent">
+                <div name="PBox" class="dp-flex marginB10px ProyectBox brd-10px">
+                    <div class="dos-tercios mrg-10px">
+                        <div class="siete-octavosV">
+                            <label class="ProyectTitle">Proyecto 1</label><br/>
+                            <label class="ProyectTitle ProyectItem">Nombre:</label>
+                            <label name="P1Name">
+
+                            </label><br/>
+                            <label class="ProyectTitle ProyectItem">Resumen:</label>
+                            <p name="P1Resumen" class="resume">
+                                
+                            </p>
+                        </div>
+                        <div class="octavoV ta-center">
+                            <button name="PrLink1" class="gitLink pboton btn-colorT">Ver Proyecto</button>
+                        </div>
+                    </div>
+                    <div class="tercio bgc-blanco ta-center brd-10px mrg-10px">
+                        <img name="P1img" class="brd-10px mrg-10px pimage" src="", alt="img-proyect"/>
+                    </div>
+                </div>
+                <div name="PBox" class="dp-flex marginB10px ProyectBox brd-10px">
+                    <div class="dos-tercios mrg-10px">
+                        <div class="siete-octavosV">
+                            <label class="ProyectTitle">Proyecto 2</label><br/>
+                            <label class="ProyectTitle ProyectItem">Nombre:</label>
+                            <label name="P2Name">
+
+                            </label><br/>
+                            <label class="ProyectTitle ProyectItem">Resumen:</label>
+                            <p name="P2Resumen" class="resume">
+                                
+                            </p>
+                        </div>
+                        <div class="octavoV ta-center">
+                            <button name="PrLink2" class="gitLink pboton btn-colorT">Ver Proyecto</button>
+                        </div>
+                    </div>
+                    <div class="tercio bgc-blanco ta-center brd-10px mrg-10px">
+                        <img name="P2img" class="brd-10px mrg-10px pimage" src="", alt="img-proyect"/>
+                    </div>
+                </div>
+                <div name="PBox" class="dp-flex marginB10px ProyectBox brd-10px">
+                    <div class="dos-tercios mrg-10px">
+                        <div class="siete-octavosV">
+                            <label class="ProyectTitle">Proyecto 3</label><br/>
+                            <label class="ProyectTitle ProyectItem">Nombre:</label>
+                            <label name="P3Name">
+
+                            </label><br/>
+                            <label class="ProyectTitle ProyectItem">Resumen:</label>
+                            <p name="P3Resumen" class="resume">
+                                
+                            </p>
+                        </div>
+                        <div class="octavoV ta-center">
+                            <button name="PrLink3" class="gitLink pboton btn-colorT" href="./proyecto.html">Ver Proyecto</button>
+                        </div>
+                    </div>
+                    <div class="tercio bgc-blanco ta-center brd-10px mrg-10px">
+                        <img name="P3img" class="brd-10px mrg-10px pimage" src="", alt="img-proyect"/>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
