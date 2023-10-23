@@ -1,8 +1,23 @@
+body{
+    background-color: rgb(0, 0, 70);
+}
+
 .screen{
     max-height: 224px;
     background-image: url("./Imagenes/banner.png");
     background-size: cover;
     display: flex;
+}
+
+.screenLayout{
+    background-color: rgba(46, 255, 46, 0.5);
+    width: 100%;
+}
+
+.imP{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 
 .tercio{
@@ -22,12 +37,12 @@
 .userdata{
     font-family: sans-serif;
     font-size: 110%;
+    width: 100%;
 }
 
 .UserElement{
     margin-top: 20px;
     margin-bottom: 25px;
-    
 }
 
 .userItem{
